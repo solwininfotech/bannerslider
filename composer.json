@@ -1,0 +1,22 @@
+{
+    "name": "solwin/bannerslider",
+    "description": "This extension is a powerful solution to grab your customers attention with amazing banner slider effects. It creates stunning impression with beautiful series of images to your store.",
+    "type": "magento2-module",
+    "version": "3.0.1",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\Bannerslider\\": ""
+        }
+    }
+}
